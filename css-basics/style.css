@@ -1,0 +1,60 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: blue
+}
+
+#title {
+    color: turquoise;
+    width: 100px;
+
+}
+
+.main-title {
+    color: magenta;
+}
+
+/* Varianta 1 de suprascriere */
+/* h1 {
+    color: orange; !important
+} */
+
+/* Varianta 2 de suprascriere */
+h1.main-title.pink-title#title {
+    color: greenyellow;
+    font-size: 72px;
+    font-weight: bold;
+    width: 400px;
+} 
+
+.box1 {
+    background-color: blue;
+    height: 100%;
+}
+
+.title {
+    color: red;
+}
+
+.sectiunea2 .title {
+    color: blue;
+    font-size: 90px;
+    font-weight: 100;
+    width: 250px;
+}
+
+.sectiunea2 .title span {
+    color: black;
+    font-size: 16px;
+}
